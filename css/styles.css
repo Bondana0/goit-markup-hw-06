@@ -408,7 +408,9 @@ body {
 /* ---------FOOTER----------*/
 .footer>.container {
   display: flex;
-  gap: 120px;
+  /* margin-left: 120px;
+  margin-right: 80px; */
+  /* gap: 120px; */
 }
 
 .footer {
@@ -444,6 +446,11 @@ body {
   color: #e7e9fc;
   margin-top: 16px;
   max-width: 264px;
+}
+
+.footer-social {
+  margin-left: 120px;
+  margin-right: 80px;
 }
 
 .social-media-list {
@@ -533,12 +540,11 @@ body {
   background: #4d5ae5;
   border: 1px solid #4d5ae5;
   border-radius: 4px;
+  position: relative;
   cursor: pointer;
 }
 
-.subscribe-btn-icon {
-  position: relative;
-}
+
 
 .subscribe-btn::after {
   content: "";
@@ -717,6 +723,7 @@ body {
   transition: background var(--transition), border-radius var(--transition),
     fill var(--transition);
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .backdrop-btn:hover,
@@ -750,7 +757,6 @@ body {
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 4px;
 }
 
 .modal-img {
@@ -766,6 +772,7 @@ body {
   border-radius: 4px;
   padding: 11px 38px;
   transition: border var(--transition), border-radius var(--transition);
+  margin-top: 4px;
 }
 
 .modal-input:focus {
